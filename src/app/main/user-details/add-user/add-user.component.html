@@ -1,0 +1,65 @@
+<input type="text" placeholder="Enter message" #message>
+<button type="button" (click)="setMessage(message)" >Send message</button>
+
+<!-- <div class="form-container">
+  <div *ngFor = "let item of res">
+    <p>{{item.first_name}}</p>
+    
+    <div class="card w-50">
+      <div class="card-body">
+        <h5 class="card-title">{{item.first_name}} {{item.last_name}}</h5>
+        <p class="card-text">{{item.street}} {{item.state}} {{item.country}} {{item.pincode}}</p>
+        <p class="card-text">{{item.email}} </p>
+        <p class="card-text">{{item.number}} </p>
+      </div>
+    </div>
+    </div>
+    
+    <p *ngIf="isFetching">Loading...</p> -->
+<!-- <form [formGroup]="userDetailForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="First Name">First Name</label>
+    <input type="text" class="form-control" formControlName="first_name" placeholder="Enter First Name" />
+  </div>
+  <div class="form-group">
+    <label for="Last Name">Last Name</label>
+    <input type="text" class="form-control" formControlName="last_name" placeholder="Enter Last Name" />
+  </div>
+  <div class="form-group">
+    <label for="Street">Street</label>
+    <input type="text" class="form-control" formControlName="street" placeholder="Street" />
+  </div>
+  <div class="form-group">
+    <label for="country">Country</label>
+    <input type="text" class="form-control" formControlName="country" placeholder="Country" />
+  </div>
+  <div class="form-group">
+    <label for="state">State</label>
+    <input type="text" class="form-control" formControlName="state" placeholder="State" />
+  </div>
+  <div class="form-group">
+    <label for="Pincode">Pincode</label>
+    <input type="text" class="form-control" formControlName="pincode" placeholder="Pincode" />
+  </div>
+  <div class="form-group">
+    <label for="Email">Email address</label>
+    <input type="email" class="form-control" placeholder="Enter email" formControlName="email" email />
+    <small id="emailHelp" class="form-text text-muted" 
+      >We'll never share your email with anyone else.</small
+    >
+  </div>
+ 
+ 
+  <div class="form-group">
+    <label for="number">Phone number</label>
+    <input type="text" class="form-control" placeholder="Phone number" formControlName="number" />
+    
+  </div>
+  <button type="submit"  class="btn btn-primary">Submit</button>
+  <p>{{userDetailForm.value | json}}</p>
+  <p>{{userDetailForm.invalid}}</p>
+</form>
+ -->
+
+<!-- 
+</div> -->
